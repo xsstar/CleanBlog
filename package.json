@@ -1,0 +1,26 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "CleanBlog App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsstar/CleanBlog.git"
+  },
+  "author": "Havva Polatli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xsstar/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/xsstar/CleanBlog#readme",
+  "devDependencies": {
+    "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
