@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1><%= post.title %>
+            <h1><%= post.title %></h1>
               <h2 class="subheading"><%= post.detail %></h2>
             <span class="meta">Posted by
               <a href="#">Start Bootstrap</a>
@@ -25,6 +25,15 @@
     </div>
   </header>
 
+  
+    <div class="clearfix">
+      <a href="/posts/edit/<%= post._id %>" class="up-btn float-right fa fa-edit"><span>Update Post</span></a>
+     
+    </div>	<br>
+
+    <div class="clearfix del">
+      <a href="/posts/<%= post._id %>?_method=DELETE" class="del-btn float-right fa fa-trash"
+        onclick="return confirm('ARE YOU SURE?')">Delete Post</a></div>
   <!-- Post Content -->
   <article>
     <div class="container">
