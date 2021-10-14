@@ -26,13 +26,13 @@
   </header>
 
   
-    <div class="clearfix">
-      <a href="/posts/edit/<%= post._id %>" class="up-btn float-right fa fa-edit"><span>Update Post</span></a>
+    <div  class="clearfix">
+      <a style="margin-right: 15px;" href="/posts/edit/<%= post._id %>" class="up-btn float-right fa fa-edit"><span>Update Post</span></a>
      
     </div>	<br>
 
-    <div class="clearfix del">
-      <a href="/posts/<%= post._id %>?_method=DELETE" class="del-btn float-right fa fa-trash"
+    <div class="clearfix ">
+      <a style="margin-right: 15px;" href="/posts/<%= post._id %>?_method=DELETE" class="del-btn float-right fa fa-trash "
         onclick="return confirm('ARE YOU SURE?')">Delete Post</a></div>
   <!-- Post Content -->
   <article>
